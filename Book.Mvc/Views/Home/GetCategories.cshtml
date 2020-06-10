@@ -1,0 +1,16 @@
+﻿@model IEnumerable<Book.Mvc.Entity.Category>
+
+
+
+
+<ul class="list-group">
+    <li class="list-group-item"><a href="/Home/List">Tüm Kategoriler</a></li">
+    @foreach (var i in Model)
+    {
+        <li class="list-group-item">
+            <a href="/Home/List/@i.Id"><i class="fa fa-book" aria-hidden="true"></i> @i.Name</a>
+        </li>
+    }
+
+
+</ul>

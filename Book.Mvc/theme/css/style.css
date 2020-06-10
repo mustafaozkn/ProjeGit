@@ -1,0 +1,147 @@
+.jumbotron
+{
+    background-image: url("../img/bg.jpg");
+    background-size: cover;
+    height: 100%;
+}
+.myButton {
+    background: #343A40;
+    background-color: #343A40;
+    border-radius: 8px;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 25px;
+    text-decoration: none;
+
+   
+}
+.myButton:hover{
+    color:#ffffff;
+}
+.myButtonDetay {
+    background: #beb5b5;
+    background-color: #beb5b5;
+    border-radius: 6px;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 7px 18px;
+    text-decoration: none;
+}
+
+    .myButtonDetay:hover {
+        color: #ffffff;
+    }
+
+.myButtonEdit {
+    background: #599bb3;
+    background-color: #599bb3;
+    border-radius: 6px;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 7px 18px;
+    text-decoration: none;
+}
+    .myButtonEdit:hover {
+        color: #ffffff;
+    }
+.myButtonDel {
+    background: red;
+    background-color: red;
+    border-radius: 6px;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 7px 18px;
+    text-decoration: none;
+}
+
+    .myButtonDel:hover {
+        color: #ffffff;
+    }
+
+
+
+
+   
+
+.card-title{
+    font-size:16px;
+    font-weight:400;
+    color:#484848;
+    line-height:1.35em;
+    height:34px;
+}
+.k-puan{
+    color:#414141;
+   
+    font-size:13px;
+}
+.description{
+    font-size:12px;
+    height:40px;
+}
+#booksdetails h1{
+    font-size:30px;
+    font-weight:600;
+}
+
+#write-review {
+    margin-left: -50px;
+}
+#product-price{
+    font-size: 28px;
+    color: red;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 60px 15px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
